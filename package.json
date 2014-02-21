@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/DamonOehlman/makejs.org/issues"
   },
-  "homepage": "https://github.com/DamonOehlman/makejs.org"
+  "homepage": "https://github.com/DamonOehlman/makejs.org",
+  "devDependencies": {
+    "trumpet": "~1.6.3"
+  }
 }
