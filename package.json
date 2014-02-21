@@ -22,5 +22,8 @@
   "homepage": "https://github.com/DamonOehlman/makejs.org",
   "devDependencies": {
     "trumpet": "~1.6.3"
+  },
+  "dependencies": {
+    "through": "~2.3.4"
   }
 }
