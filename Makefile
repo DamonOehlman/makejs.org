@@ -1,3 +1,6 @@
+PORT ?= 8000
+BIN=./node_modules/.bin/
+
 PHONY: default
 
 clean:
@@ -15,3 +18,6 @@ update: clean default
 default: node_modules make.html
 	@echo "enwondering the make manual"
 	@node enwonder.js
+
+serve: default
+	@$(BIN)/st -nc -p $(PORT)
