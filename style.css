@@ -1,3 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+
 body {
-  background: #f8f8f8;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 21%;
+}
+
+pre, code {
+  font-family: 'Source Code Pro', monospace;
+}
+
+pre {
+  background: #e8e8e8;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contents {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 20%;
+  overflow-y: scroll;
+  font-size: 0.8em;
+}
+
+.contents > ul {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+.contents > ul li > ul {
+  padding-left: 2em;
+  margin: 0.5em 0 1em
+}
+
+.contents h2 {
+  display: none;
 }
