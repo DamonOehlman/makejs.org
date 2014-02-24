@@ -1,6 +1,6 @@
 {
   "name": "makejs.org",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The hipster friendly version of the GNU make documentation",
   "main": "index.js",
   "scripts": {
