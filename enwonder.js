@@ -7,7 +7,7 @@ var css = fs.readFileSync(__dirname + '/style.css', { encoding: 'utf8' });
 var modified;
 
 function write(data) {
-  modified = modified || this.queue('\n<style>\n' + css + '\n</style>');
+  modified = modified || this.queue('\n<link rel="stylesheet" href="style.css" />\n');
   this.queue(data);
 }
 
